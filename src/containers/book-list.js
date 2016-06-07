@@ -24,6 +24,8 @@ class BookList extends Component {
     }
 }
 
+//Glue between react and redux
+//If application state ever changes, the component will automatically rerender 
 function mapStateToProps(state) {
   // Whatever is returned will show up as props inside of BookList
   // Usually returning an object
