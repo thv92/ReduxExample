@@ -17,8 +17,6 @@ class BookList extends Component {
 
             );
     }
-
-
     renderList() {
         return this.props.books.map((book) => {
             return (
