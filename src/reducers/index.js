@@ -3,7 +3,7 @@ import BooksReducer from './reducer_books';
 import ActiveBook from './reducer_active_book';
 
 const rootReducer = combineReducers({
-  books: BooksReducer //Global application state called books with value = array of books
+  books: BooksReducer, //Global application state called books with value = array of books
   activeBook: ActiveBook
 });
 
