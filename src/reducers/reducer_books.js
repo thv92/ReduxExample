@@ -1,3 +1,4 @@
+//Application state is created by reducer functions
 export default function() {
     return [
     { title: 'Javascript: The Good Parts'},
